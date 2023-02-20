@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="login.js"></script>
+    <style>
+      body {
+        background-image: url(background.jpg);
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        background-color: #f1f1f1;
+      } 
+      .container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #aaaaaa;
+        margin: auto;
+        margin-top: 50px;
+        width: 50%;
+        max-width: 500px;
+        min-width: 300px;
+      } 
+      h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 30px;
+      }  
+      input[type=text], input[type=email] {
+        width: 100%;
+        padding: 5px;
+        margin: 5px 0 22px 0;
+        border: none;
+        border-radius: 4px;
+        background: #f1f1f1;
+      }  
+      input[type=text]:focus, input[type=email]:focus {
+        background-color: #ddd;
+        outline: none;
+      } 
+      button[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }  
+      button[type=submit]:hover {
+        background-color: #0bef31;
+      }  
+      .link {
+        color: #07f00f;
+        text-align: right;
+        font-size: 18px;
+      }
+      .link a {
+        color: #0bf565;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form action="#" method="POST">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit" href ="secondpage.html">Login</button>
+      </form>
+    </div>
+  </body>
+  </html>
+</body>
+</html>

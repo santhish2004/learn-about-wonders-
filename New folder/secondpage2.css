@@ -1,0 +1,31 @@
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+  }  
+  .column {
+    float: left;
+    width: 88%;
+    padding: 20px;
+  } 
+  .row::after {
+    content: "";
+    clear: right;
+    display:grid;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0269ca;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2d05cd;
+}
